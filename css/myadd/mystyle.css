@@ -1,0 +1,437 @@
+*{
+    align-items: center;
+    text-align: center;
+}
+
+.position_logo{
+    width: 30%;
+    height: 150px;
+    /* margin-top: 0px;
+    padding-top: 0px; */
+}
+#abcc{
+    height: 1000px;
+}
+.hed_keep{
+    font-size: 50px;
+}
+
+.input_search {
+    width: 400px;
+    /* height: 50px; */
+}
+
+.abc {
+    width: 50px;
+
+}
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+/* style of top contributers  */
+.demo2 {
+    background: white;
+    padding: 30px 0
+}
+
+.pricingTable2 {
+    padding-bottom: 30px;
+    margin: 0 15px;
+    background: #fff;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden
+}
+
+.pricingTable2:hover {
+    box-shadow: 0 0 10px rgba(195, 67, 67, .3) inset, 0 0 20px -5px rgba(0, 0, 0, .8)
+}
+
+.pricingTable2 .pricingTable-header {
+    padding: 20px 15px 45px;
+    background: #21196D;
+    -webkit-clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
+    clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
+    position: relative
+}
+
+.pricingTable2 .pricingTable-header:before {
+    content: "";
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    right: -50%;
+    top: -130%;
+    background: repeating-radial-gradient(rgba(255, 255, 255, .05), rgba(255, 255, 255, .2) 20%);
+    transition: all .5s ease 0s
+}
+
+.pricingTable2:hover .pricingTable-header:before {
+    right: 50%
+}
+
+.pricingTable2 .title {
+    font-size: 40px;
+    color: #fff;
+    margin: 0
+}
+
+.pricingTable2 .price-value {
+    display: block;
+    font-size: 25px;
+    color: #000;
+    margin: 0 0 20px;
+    transition: all .3s ease 0s
+}
+
+.pricingTable2 .pricing-content {
+    padding: 30px 25px 0;
+    margin: 0;
+    list-style: none
+}
+
+.pricingTable2 .pricing-content li {
+    font-size: 18px;
+    color: #909090;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-bottom: 2px solid rgba(0, 0, 0, .15);
+    margin-bottom: 10px;
+    position: relative
+}
+
+.pricingTable2 .pricing-content li:last-child {
+    border-bottom: none
+}
+
+.pricingTable2 .pricing-content li i {
+    color: #21196D
+}
+
+.pricingTable2 .pricingTable-signup {
+    display: block;
+    padding: 18px 0;
+    margin: 0 25px;
+    border-radius: 10px;
+    background: #21196D;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    overflow: hidden;
+    position: relative;
+    transition: all .3s ease 0s
+}
+
+.pricingTable2 .pricingTable-signup:hover {
+    letter-spacing: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7), 0 0 0 7px rgba(255, 255, 255, .5) inset
+}
+
+.pricingTable2 .pricingTable-signup:before {
+    content: "";
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background: repeating-radial-gradient(rgba(255, 255, 255, .05), rgba(255, 255, 255, .2) 20%);
+    position: absolute;
+    top: -180%;
+    right: -40%;
+    transition: all .8s ease 0s
+}
+
+.pricingTable2 .pricingTable-signup:hover:before {
+    right: 40%
+}
+
+.pricingTable2.blue .pricingTable-header,
+.pricingTable2.blue .pricingTable-signup {
+    background: #42E7E0
+}
+
+.pricingTable2.blue .pricing-content li i {
+    color: #42E7E0
+}
+
+.pricingTable2.pink .pricingTable-header,
+.pricingTable2.pink .pricingTable-signup {
+    background: #21196D
+}
+
+.pricingTable2.pink .pricing-content li i {
+    color: #21196D
+}
+
+@media only screen and (max-width:990px) {
+    .pricingTable2 {
+        margin-bottom: 30px
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .pricingTable2 {
+        margin: 0
+    }
+
+    .pricingTable2 .pricing-content li {
+        font-size: 15px
+    }
+}
+
+.abcd{
+    border: 2px solid #42E7E0;
+}
+
+.border_blue {
+    border: 2px solid #21196D;
+}
+.top_cont{
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.top_cont_h4{
+    font-size: 50px;
+}
+
+
+/* /////////////////////////// */
+
+
+
+
+/* up to date ////////////////////////////////////////////////////////////................................................... */
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: top;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+
+body {
+font-family: "Source Sans Pro", "helvetica", sans-serif;
+font-style: normal;
+font-weight: normal;
+text-align: center;
+font-size: 16px;
+color: rgba(39,65,90,1);
+}
+
+h4 {
+margin-bottom: 12px;
+font-size: 1.25em;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+h5 {
+font-size: 1.75em;
+}
+
+p {
+margin-top: 1em;
+margin-bottom: 1em;
+color: rgba(39,65,90,.9);
+font-size: 1.25em;
+line-height: 1.625em;
+}
+
+
+ol, ul {
+list-style: none;
+}
+
+body {
+line-height: 1;
+}
+
+strong {
+color: rgba(39,65,90,1);
+font-weight: 600;
+}
+
+.plans {
+background: #e7f2f0;
+}
+
+.layer {
+clear: both;
+width: 100%;
+height: auto;
+padding: 60px 7.5% 60px;
+display: block;
+}
+
+.layer > section, .layer > article {
+clear: both;
+width: 100%;
+height: auto;
+max-width: 1092px;
+margin: 0 auto;
+display: block;
+}
+
+.third {
+width: 27.95%;
+margin: 0 30px 0 0;
+display: inline-block;
+border: 2px solid #241C71;
+/* border-radius: 5% !important; */
+border-top-left-radius: 5% !important;
+border-top-right-radius: 5% !important;
+}
+
+.plan-tier {
+background: white;
+vertical-align: baseline;
+border-radius: 3px;
+-moz-border-radius: 3px;
+/* cursor: pointer; */
+overflow: hidden;
+}
+
+.lift {
+position: relative;
+-webkit-transition: all .075s ease-out;
+-moz-transition: all .075s ease-out;
+-o-transition: all .075s ease-out;
+transition: all .075s ease-out;
+}
+
+.lift:hover {
+top: -23px;
+-webkit-box-shadow: 0 2px 6px rgba(39,65,90,.15);
+-moz-box-shadow: 0 2px 6px rgba(39,65,90,.15);
+box-shadow: 0 2px 6px rgba(39,65,90,.15);
+}
+
+.plan-tier h4 {
+padding: 18px 0 15px;
+margin: 0 0 30px;
+background:  #21196D;
+color: white;
+}
+
+.plan-tier {
+/* cursor: pointer; */
+}
+
+.plan-tier sup {
+position: relative;
+right: -9px;
+}
+
+.plan-tier ul {
+margin: 30px 0 0;
+border-top: 2px solid #e7f2f0;
+}
+
+.plan-tier ul li {
+font-size: 1.25em;
+padding: 18px 0;
+color: rgba(39,65,90,.9);
+border-bottom: 2px solid #e7f2f0;
+}
+
+sup {
+vertical-align: top;
+}
+
+.plan-tier .plan-price {
+font-size: 5em;
+font-weight: 300;
+letter-spacing: -3px;
+}
+
+.plan-tier sub {
+vertical-align: bottom;
+position: relative;
+bottom: .875em;
+}
+
+.plan-tier .early-adopter-price {
+color: #0091e5;
+}
+p:first-of-type {
+margin-top: 0;
+}
+
+small, del {
+color: rgba(39,65,90,.5);
+font-size: 1em;
+line-height: 1.5em;
+}
+
+s, strike, del {
+text-decoration: line-through;
+}
+
+
+.layer {
+padding-top: 96px;
+padding-bottom: 96px;
+}
+
+.plan-tier.callout h6 {
+width: 100%;
+padding: 15px 0 14px;
+background: #8dcf3f;
+color: rgba(39,65,90,.5);
+font-size: 1.25em;
+}
+
+.plan-tier.callout h4 {
+background-color: #42E7E0;
+}
+
+/* up to date //////////////////////////////////////////////////////////// */
